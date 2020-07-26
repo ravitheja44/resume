@@ -11,25 +11,22 @@ class Header extends Component {
                     </button>
                         <div className="collapse navbar-collapse" id="ftco-nav">
                             <ul className="navbar-nav nav ml-auto">
-                                <li className="nav-item"><a href="/#home-section" className="nav-link"><span>Home</span></a></li>
+                                <li className="nav-item"><a href="/#" className="nav-link"><span>Home</span></a></li>
                                 <li className="nav-item"><a href="/#about-section" className="nav-link"><span>About</span></a></li>
                                 <li className="nav-item"><a href="/#resume-section" className="nav-link"><span>Resume</span></a></li>
-                                <li className="nav-item"><a href="/#services-section" className="nav-link"><span>Services</span></a></li>
-                                <li className="nav-item"><a href="/#projects-section" className="nav-link"><span>Projects</span></a></li>
-                                <li className="nav-item"><a href="/#blog-section" className="nav-link"><span>My Blog</span></a></li>
                                 <li className="nav-item"><a href="/#contact-section" className="nav-link"><span>Contact</span></a></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
-                <section className="hero-wrap js-fullheight">
+                <section className="hero-wrap js-fullheight" style={{height:'625px'}}>
       <div className="overlay"></div>
       <div className="container">
-        <div className="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+        <div className="row no-gutters slider-text js-fullheight justify-content-center align-items-center" style={{height:'625px'}}>
           <div className="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
           	<div className="text text-center">
           		<span className="subheading">Hey! I am</span>
-		  				<h1>Ronaldo Fredrickson</h1>
+		  				<h1>Ravi Theja</h1>
 			  				<h2>I'm a 
 								  <span
 								     className="txt-rotate"
